@@ -3,7 +3,6 @@ import rdflib
 import yaml
 from urllib.parse import urlparse, urlunparse
 
-
 def get_hal_graph(halref) -> Graph:
     """
     Given a HAL document URI, returns the corresponding Graph.
